@@ -1,0 +1,40 @@
+
+body, html, #root {
+  width: 100%;
+  height: calc(100% - 30px);
+}
+
+.main-list {
+  text-align: center;
+  font-size: 1.5rem;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}
+
+.home, .cherry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  a {
+    color: black;
+    font-size: 1.6rem;
+    background-color: #CCCCCC;
+    padding: 1rem 3rem;
+    text-decoration: none;
+
+    &:hover {
+      background-color: #a1a1a1;
+    }
+  }
+}
+
+.cherry {
+  flex-direction: column;
+  text-align: center;
+}

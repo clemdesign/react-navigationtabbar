@@ -1,0 +1,42 @@
+
+.navigation-tabbar {
+    height: 100%;
+    width: 100%;
+
+    nav {
+        position: fixed;
+        bottom: 0;
+        background-color: #282c34;
+        width: 100%;
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: inline;
+                min-width: 80px;
+                padding: 16px 16px;
+                text-align: center;
+                height: 100%;
+
+                a {
+                    color: white;
+                    font-style: normal;
+                    text-decoration: none;
+                }
+            }
+
+            .selected {
+                background-color: #4c5260;
+            }
+        }
+    }
+
+    nav.disabled {
+        display: none;
+    }
+}
